@@ -1,0 +1,8 @@
+brokers:
+  - "kafka1:29091"
+  - "kafka2:29092"
+
+topics:
+  - "registrations-topic"
+
+consumer_group: "notification-service"
